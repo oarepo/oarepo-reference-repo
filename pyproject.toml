@@ -5,18 +5,7 @@ description = "Reference repository for building the oarepo-app package"
 packages = []
 authors = []
 dependencies = [
-    "ccmm-invenio>=1.1.0a1",
-    "json5",
-    "marshmallow-i18n-messages",
-    "oarepo-dashboard>=2.0.0dev1,<3.0.0",
-    "oarepo-glitchtip==1.*",
-    "oarepo-model>=0.1.0dev0,<1.0.0",
-    "oarepo-rdm>=1.0.0dev0,<2.0.0",
-    "oarepo-runtime>=2.0.0dev0,<3.0.0",
-    "oarepo-theme>=1.0.0dev3,<2.0.0",
-    "oarepo-ui>=7.0.0dev0,<8.0.0",
-    "oarepo[s3,rdm]>=14.0.0,<15.0.0",
-    "python-dotenv",
+    "oarepo-app>=14.1.1,<14.2.0"
 ]
 requires-python = ">=3.13,<3.15"
 
